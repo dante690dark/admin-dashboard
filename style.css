@@ -1,0 +1,29 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  display: grid;
+  grid-template-columns: 1fr 2fr 3fr;
+  grid-template-rows: 200px auto;
+  height: 100vh;
+}
+
+.sidebar{
+  grid-column: 1 / 2;
+  grid-row: 1 / 4;
+  background: #1792D4;
+}
+
+.header{
+  grid-column: 2 / 4;
+  background: #FFFFFF;
+}
+
+.main-content{
+  grid-column: 2 / 4;
+  grid-row: 2 / 4;
+  background: #E2E8F0;
+}
