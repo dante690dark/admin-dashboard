@@ -2,6 +2,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
 }
 
 main{
@@ -19,11 +21,20 @@ aside{
 
 header{
   grid-column: 2 / 4;
-  background: #FFFFFF;
+  background: #FFFFFF; 
+	border-radius: 4px; 
+	box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  z-index: 10;
 }
 
 article{
   grid-column: 2 / 4;
   grid-row: 2 / 4;
   background: #E2E8F0;
+}
+
+.items-sidebar{
+  color: #FFFFFF;
+  font-size: 30px;
+  padding: 20px;
 }
