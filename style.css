@@ -100,7 +100,7 @@ span {
 }
 
 .ring-bell {
-  justify-self: end;
+  padding: 0;
 }
 
 .container-body {
