@@ -100,10 +100,12 @@ span {
   align-items: center;
   justify-items: center;
   gap: 10px;
+  width: 111%;
 }
 
 .profile-text {
   display: grid;
+  gap: 5px;
 }
 
 .profile-picture {
@@ -117,20 +119,21 @@ span {
   background-position: center;
 }
 
-.greeting {
-  font-size: 12px;
+.profile-picture.body {
+  width: 80px;
+  height: 80px;
 }
 
-.name {
+.greeting {
+  font-size: 15px;
+}
+
+.profile-text .name {
   font-size: 20px;
 }
 
 .ring-bell {
   padding: 0;
-}
-
-.container-body {
-  background: blue;
 }
 
 .temp {
