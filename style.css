@@ -80,12 +80,30 @@ span {
   align-items: center;
 }
 
+.container-body {
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+}
+
 .search-input {
   border-radius: 20px;
   height: 30px;
   background-color: #e0e0e0;
   grid-column: span 3;
   border: none;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  gap: 10px;
+}
+
+.profile-text {
+  display: grid;
 }
 
 .profile-picture {
@@ -97,6 +115,14 @@ span {
   background-image: url('tu-imagen.jpg');
   background-size: cover;
   background-position: center;
+}
+
+.greeting {
+  font-size: 12px;
+}
+
+.name {
+  font-size: 20px;
 }
 
 .ring-bell {
