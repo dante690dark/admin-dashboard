@@ -135,6 +135,22 @@ span {
   padding: 0;
 }
 
+.buttons {
+  display: grid;
+  grid-auto-flow: row;
+  grid-template-columns: repeat(3, 1fr);
+  place-items: center;
+}
+
+.btn {
+  width: 100px;
+  height: 40px;
+  background-color: #1792d4;
+  border: none;
+  border-radius: 25px;
+  color: white;
+}
+
 .temp {
   font-size: 48px;
 }
