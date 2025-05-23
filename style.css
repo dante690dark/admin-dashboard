@@ -154,3 +154,12 @@ span {
 .temp {
   font-size: 48px;
 }
+
+li span {
+  padding-right: 30px;
+}
+
+.section-modals {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
