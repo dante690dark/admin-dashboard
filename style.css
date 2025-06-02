@@ -68,6 +68,10 @@ span {
   padding: 10px;
 }
 
+li span {
+  padding-right: 30px;
+}
+
 .container {
   margin: 4px 50px;
   gap: 5px;
@@ -131,6 +135,10 @@ span {
   font-size: 15px;
 }
 
+.text-style {
+  font-weight: bold;
+}
+
 .ring-bell {
   padding: 0;
 }
@@ -150,14 +158,6 @@ span {
   border: none;
   border-radius: 25px;
   color: white;
-}
-
-.temp {
-  font-size: 48px;
-}
-
-li span {
-  padding-right: 30px;
 }
 
 .section-cards {
