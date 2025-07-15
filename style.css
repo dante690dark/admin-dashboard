@@ -82,12 +82,20 @@ li span {
   grid-auto-flow: column;
   grid-template-columns: 30px repeat(4, 1fr);
   align-items: center;
+
+  .mdi {
+    font-size: 20px;
+  }
+
+  .name {
+    font-size: 25px;
+  }
 }
 
 .container-body {
   display: grid;
   grid-auto-flow: column;
-  grid-template-columns: repeat(2, 2fr) 1fr;
+  grid-template-columns: 2fr repeat(2, 1fr);
   align-items: center;
 }
 
@@ -106,13 +114,9 @@ li span {
   .profile-text {
     display: grid;
 
-    > *:first-child {
-      position: relative;
-      top: 10px;
-    }
-
     .name {
-      font-size: 20px;
+      font-size: 30px;
+      margin-bottom: 5px;
     }
   }
 }
@@ -134,7 +138,7 @@ li span {
 }
 
 .greeting {
-  font-size: 15px;
+  font-size: 20px;
 }
 
 .text-style {
@@ -179,7 +183,7 @@ li span {
       background: white;
       border-radius: 8px;
       box-shadow: 0.25rem 0.25rem 0.25rem 0 #ccc;
-      border-left: 8px solid #facc15;
+      border-left: 8px solid #f0b429;
 
       .content-cards {
         margin: 30px;
