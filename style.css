@@ -173,7 +173,9 @@ li span {
       height: 200px;
       background: white;
       border-radius: 8px;
-      box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+      /* box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2); */
+      box-shadow: 0.25rem 0.25rem 0.25rem 0 #ccc, inset 0.5rem 0 0 0 orange;
+      /* fix: arreglar este box shadow */
 
       .content-cards {
         margin: 30px;
@@ -183,9 +185,18 @@ li span {
         .title-card {
           word-break: break-word;
           white-space: normal;
+          height: 70px;
         }
 
-        /* TODO:should Icons class be here */
+        .icons {
+          display: grid;
+          grid-auto-flow: column;
+          grid-auto-columns: min-content;
+          justify-content: end;
+          position: relative;
+          top: 27px;
+          gap: 20px;
+        }
       }
     }
   }
