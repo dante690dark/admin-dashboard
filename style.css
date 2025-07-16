@@ -166,20 +166,20 @@ li span {
   display: grid;
   grid-template-columns: 3fr 1fr;
 
-  .main-cards {
+  .project-cards {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 20px repeat(3, 1fr);
     gap: 20px;
     margin: 40px 15px;
 
-    .title-main-cards {
+    .title-project-cards {
       grid-column: span 2;
       text-align: start;
     }
 
     .card {
-      height: 200px;
+      height: auto;
       background: white;
       border-radius: 8px;
       box-shadow: 0.25rem 0.25rem 0.25rem 0 #ccc;
@@ -218,11 +218,12 @@ li span {
 
   .side-cards {
     display: grid;
+    grid-template-rows: 28px 1fr 13px 1fr;
     gap: 20px;
-    margin: 30px 15px;
+    margin: 40px 15px;
 
     .card {
-      height: 300px;
+      height: auto;
       background: white;
       border-radius: 8px;
       box-shadow: 0.25rem 0.25rem 0.25rem 0 #ccc;
