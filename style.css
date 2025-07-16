@@ -164,7 +164,7 @@ li span {
 
 .section-cards {
   display: grid;
-  grid-template-columns: 2fr 1fr;
+  grid-template-columns: 3fr 1fr;
 
   .main-cards {
     display: grid;
@@ -178,14 +178,14 @@ li span {
       text-align: start;
     }
 
-    .cards {
+    .card {
       height: 200px;
       background: white;
       border-radius: 8px;
       box-shadow: 0.25rem 0.25rem 0.25rem 0 #ccc;
       border-left: 8px solid #f0b429;
 
-      .content-cards {
+      .content-card {
         margin: 30px;
         display: grid;
         grid-auto-flow: row;
@@ -218,6 +218,14 @@ li span {
 
   .side-cards {
     display: grid;
-    grid-row: repeat(2, 1fr);
+    gap: 20px;
+    margin: 30px 15px;
+
+    .card {
+      height: 300px;
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0.25rem 0.25rem 0.25rem 0 #ccc;
+    }
   }
 }
