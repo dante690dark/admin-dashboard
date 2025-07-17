@@ -35,28 +35,41 @@ article {
   background: #e2e8f0;
 }
 
+.prueba {
+  margin-left: 16px;
+}
+
 .items-sidebar {
   color: #ffffff;
   font-size: 30px;
   padding: 20px;
-}
 
-.title {
-  display: grid;
-  grid-auto-flow: column;
-  grid-template-columns: 1fr auto;
-  align-items: center;
-  justify-content: center;
-}
+  .side-icon {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    align-items: center;
 
-.icon-title {
-  font-size: 45px;
-}
+    .svg-title {
+      width: 50px;
+      height: 50px;
+    }
 
-.text-title {
-  font-size: 30px;
-  position: absolute;
-  left: 78px;
+    .text-title {
+      font-size: 30px;
+    }
+
+    svg {
+      width: 24px;
+      height: 24px;
+      path {
+        fill: #ffffff;
+      }
+    }
+
+    span {
+      justify-self: flex-start;
+    }
+  }
 }
 
 li {
