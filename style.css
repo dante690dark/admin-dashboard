@@ -126,10 +126,7 @@ li span {
   width: 50px;
   height: 50px;
   border-radius: 100%;
-  border: 2px solid black;
-  background-image: url('tu-imagen.jpg');
-  background-size: cover;
-  background-position: center;
+  background: url('assets//picture/picture.png') center / cover no-repeat;
 
   &.body {
     width: 70px;
@@ -261,17 +258,28 @@ li span {
       .profile {
         margin: 30px;
         display: grid;
-        grid-template-columns: 70px 50px;
+        grid-template-columns: 60px 50px;
         gap: 30px;
 
         .profile-picture {
           width: 70px;
           height: 70px;
           border-radius: 100%;
-          border: 2px solid black;
-          background-image: url('tu-imagen.jpg');
-          background-size: cover;
-          background-position: center;
+
+          &.profile-1 {
+            background: url('assets//picture/profile1.jpeg') center / cover
+              no-repeat;
+          }
+
+          &.profile-2 {
+            background: url('assets//picture/profile2.png') center / cover
+              no-repeat;
+          }
+
+          &.profile-3 {
+            background: url('assets//picture/profile3.jpeg') center / cover
+              no-repeat;
+          }
         }
 
         .profile-text {
@@ -289,4 +297,8 @@ li span {
       }
     }
   }
+}
+
+.icon {
+  color: white;
 }
