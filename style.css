@@ -185,7 +185,7 @@ li span {
       .content-card {
         margin: 30px;
         display: grid;
-        grid-template-rows: 1fr 5fr 1fr;
+        grid-template-rows: 1fr 4fr 1fr;
 
         .title-card {
           font-size: 26px;
