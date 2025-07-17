@@ -35,7 +35,7 @@ article {
   background: #e2e8f0;
 }
 
-.prueba {
+.margin-items-sidebar {
   margin-left: 16px;
 }
 
@@ -61,6 +61,7 @@ article {
     svg {
       width: 24px;
       height: 24px;
+
       path {
         fill: #ffffff;
       }
@@ -75,14 +76,14 @@ article {
 li {
   padding: 10px;
   font-size: 20px;
+
+  span {
+    padding-right: 30px;
+  }
 }
 
 span {
-  padding: 10px;
-}
-
-li span {
-  padding-right: 30px;
+  padding: 5px;
 }
 
 .container {
@@ -95,9 +96,12 @@ li span {
   grid-auto-flow: column;
   grid-template-columns: 30px repeat(4, 1fr);
   align-items: center;
+  gap: 20px;
 
-  .mdi {
-    font-size: 20px;
+  svg {
+    height: 25px;
+    width: 25px;
+    justify-self: flex-end;
   }
 
   .name {
@@ -122,7 +126,7 @@ li span {
 
 .profile {
   display: grid;
-  grid-template-columns: 100px 1fr;
+  grid-template-columns: 80px 1fr;
 
   .profile-text {
     display: grid;
@@ -139,6 +143,7 @@ li span {
   width: 50px;
   height: 50px;
   border-radius: 100%;
+  border: 1px solid #000000;
   background: url('assets//picture/picture.png') center / cover no-repeat;
 
   &.body {
@@ -305,6 +310,7 @@ li span {
 
           .greeting {
             font-size: 16px;
+            color: #949494;
           }
         }
       }
